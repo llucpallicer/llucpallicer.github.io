@@ -1,0 +1,21 @@
+.home {
+  max-width: 785px;
+}
+
+.homeMobile {
+  padding: 0 0 1.5rem;
+}
+
+.scrollTrack {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  padding: 0 2rem 1rem;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.scrollTrack::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,52 @@
+.card {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+  margin-bottom: 2.5rem;
+  transition: opacity 0.25s ease;
+}
+
+.card:hover {
+  opacity: 0.92;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  max-width: 675px;
+  aspect-ratio: 675 / 380;
+  object-fit: cover;
+  background: var(--color-surface);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.06);
+}
+
+.label {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  white-space: pre-wrap;
+  color: var(--color-muted);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.card:hover .label,
+.card:focus-visible .label,
+.labelVisible {
+  opacity: 1;
+}
+
+.cardMobile {
+  flex: 0 0 280px;
+  scroll-snap-align: start;
+  margin-bottom: 0;
+}
+
+.cardMobile .image {
+  max-width: none;
+}
+
+.cardMobile .label {
+  opacity: 1;
+}

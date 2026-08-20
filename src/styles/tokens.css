@@ -1,0 +1,11 @@
+:root {
+  --font-mono: 'Roboto Mono', ui-monospace, monospace;
+  --color-bg: rgb(247, 246, 246);
+  --color-surface: rgb(230, 230, 230);
+  --color-text: #111;
+  --color-muted: rgb(180, 180, 180);
+  --color-border: rgb(220, 220, 220);
+  --sidebar-width: 360px;
+  --content-offset: 383px;
+  --phone-width: 393px;
+}

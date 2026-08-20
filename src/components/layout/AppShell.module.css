@@ -1,0 +1,24 @@
+.shell {
+  min-height: 100vh;
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+.main {
+  min-height: 100vh;
+}
+
+.shell[data-device='desktop'] .main {
+  margin-left: 360px;
+  padding: 30px 35px 30px 383px;
+}
+
+.shell[data-device='phone'] .main {
+  padding: 0 0 2rem;
+  max-width: 393px;
+  margin: 0 auto;
+}
+
+.shell[data-device='phone'] .main[data-menu='true'] {
+  padding-top: 0;
+}

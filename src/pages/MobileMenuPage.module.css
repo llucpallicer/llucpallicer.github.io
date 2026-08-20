@@ -1,0 +1,39 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding: 1.5rem 2rem 2rem;
+  min-height: calc(100vh - 3.5rem);
+}
+
+.link {
+  font-size: 0.875rem;
+  color: var(--color-muted);
+  text-decoration: none;
+  width: fit-content;
+  transition: color 0.2s ease;
+}
+
+.link:hover,
+.link.active {
+  color: var(--color-text);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.sectionLabel {
+  color: var(--color-text);
+}
+
+.lang {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding-top: 2rem;
+}

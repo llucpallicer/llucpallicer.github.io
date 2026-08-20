@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  background: var(--color-bg);
+  z-index: 10;
+}
+
+.brand,
+.menu {
+  font-size: 0.875rem;
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.menu {
+  color: var(--color-muted);
+}

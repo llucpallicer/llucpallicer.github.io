@@ -1,0 +1,53 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 360px;
+  height: 100vh;
+  padding: 30px 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  z-index: 10;
+}
+
+.nav a {
+  color: var(--color-muted);
+  text-decoration: none;
+  transition: color 0.2s ease;
+  width: fit-content;
+}
+
+.nav a:hover,
+.nav a.active {
+  color: var(--color-text);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-top: 1.25rem;
+}
+
+.sectionLabel {
+  color: var(--color-text);
+}
+
+.next {
+  margin-top: 0.5rem;
+}
+
+.lang {
+  margin-top: auto;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.muted {
+  color: var(--color-muted);
+}
