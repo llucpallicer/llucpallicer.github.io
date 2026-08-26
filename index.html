@@ -11,6 +11,20 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <script>
+      // Restore path from GitHub Pages 404 redirect shim
+      (function () {
+        var p = new URLSearchParams(window.location.search).get('p');
+        if (p) {
+          var q = new URLSearchParams(window.location.search).get('q');
+          window.history.replaceState(
+            null,
+            null,
+            p + (q ? '?' + q : '') + window.location.hash
+          );
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>

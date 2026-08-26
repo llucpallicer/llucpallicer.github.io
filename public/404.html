@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ca">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Lluc Pallicer</title>
+    <script>
+      // GitHub Pages SPA redirect shim
+      // When GH Pages can't find a file, it serves this 404.html.
+      // We encode the requested path into ?p= and redirect to the root
+      // so React Router can take over.
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        '/?p=/' +
+        l.pathname.slice(1).split('/').map(encodeURIComponent).join('/') +
+        (l.search ? '&q=' + l.search.slice(1) : '') +
+        l.hash
+      );
+    </script>
+  </head>
+  <body></body>
+</html>
