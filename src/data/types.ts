@@ -14,6 +14,8 @@ export interface ProjectCopy {
   sidebarTitle?: string;
   client?: string;
   year: number;
+  /** Short discipline label for schema.org and meta, e.g. "Product design" */
+  discipline?: string;
 }
 
 export interface Project {

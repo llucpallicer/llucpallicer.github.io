@@ -3,8 +3,12 @@ import { getProject } from '@/data/projects';
 import { galleryImageUrl, getGallery } from '@/data/galleries';
 import { useLocale } from '@/hooks/useLocale';
 import { usePageTitle } from '@/hooks/usePageTitle';
+import { useMeta } from '@/hooks/useMeta';
+import { useJsonLd } from '@/hooks/useJsonLd';
 import { useIsMobile } from '@/hooks/useMediaQuery';
 import { navLabels } from '@/i18n/messages';
+import { projectBodies } from '@/data/content';
+import { creativeWorkSchema } from '@/seo/schemas';
 import styles from './GalleryPage.module.css';
 
 export function GalleryPage() {
@@ -18,15 +22,50 @@ export function GalleryPage() {
 
   usePageTitle(pageTitle);
 
+  const copy = project?.copy[locale];
+  const body = project ? projectBodies[project.slug]?.[locale] : undefined;
+  const firstSentence = body ? body.split(/[.!?]/)[0] + '.' : '';
+  const description = copy
+    ? firstSentence || `${copy.title} — ${copy.discipline ?? 'project'} by Lluc Pallicer, ${copy.year}.`
+    : 'Archive of projects by Lluc Pallicer.';
+
+  // Gallery images are part of the parent project, so they canonicalise to its detail URL.
+  useMeta({
+    locale,
+    path: project ? `/${locale}/projectes/${project.slug}` : `/${locale}/projectes`,
+    alternatePaths: {
+      ca: project ? `/ca/projectes/${project.slug}` : '/ca/projectes',
+      es: project ? `/es/projectes/${project.slug}` : '/es/projectes',
+      en: project ? `/en/projectes/${project.slug}` : '/en/projectes',
+    },
+    description,
+    ogImage: project ? `https://llucpallicer.com${galleryImageUrl(project.slug, index)}` : undefined,
+    ogType: 'article',
+  });
+
+  useJsonLd(
+    `gallery-project-${slug ?? 'unknown'}`,
+    project && copy
+      ? creativeWorkSchema({
+          name: copy.title,
+          description,
+          year: copy.year,
+          slug: project.slug,
+          locale,
+          discipline: copy.discipline,
+          client: copy.client,
+        })
+      : undefined,
+  );
+
   if (isMobile && project) {
     return <Navigate to={`/${locale}/projectes/${project.slug}`} replace />;
   }
 
-  if (!project || !gallery || !gallery.slides.includes(index)) {
+  if (!project || !copy || !gallery || !gallery.slides.includes(index)) {
     return <Navigate to={`/${locale}/projectes/${slug ?? ''}`} replace />;
   }
 
-  const copy = project.copy[locale];
   const labels = navLabels[locale];
   const prev = gallery.prev[index];
   const next = gallery.next[index];

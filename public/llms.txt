@@ -1,0 +1,42 @@
+# Lluc Pallicer — llucpallicer.com
+
+Lluc Pallicer is a product designer and researcher born in 1998 in Palma, Mallorca, Spain, currently based in Barcelona, Catalunya, Spain. He studied photography in Palma and completed a Product Design degree at EINA Centre Universitari de Disseny i Art (Barcelona). He collaborates on documentation at the DHUB Archive and works independently in product design, installations, and art direction.
+
+Contact: mail@llucpallicer.com
+Instagram: https://www.instagram.com/lluc.pallicer.ribas/
+
+## Projects
+
+- **Cinquanta-u** (2025) — Product design. Research and materialisation of an unproduced chair sketch found in the personal archive of Catalan architect Germán Rodríguez Arias at the AHCOAC, dating from his Chilean exile period.
+  URL: https://llucpallicer.com/en/projectes/cinquanta-u
+
+- **Bath'n'dustry** (2024) — Installation. Intervention for the NYS festival (industry meets art) in collaboration with TOI TOI, transforming a portable toilet into a functional festival installation.
+  URL: https://llucpallicer.com/en/projectes/bathndustry
+
+- **Udden** (2024) — Light installation. Scholarship by Lightecture magazine to participate in the "Lights in Alingsås" festival (Sweden). Installation inspired by the myth of the underworld (Charon, Cerberus, Hades), directed by architect George Fatseas.
+  URL: https://llucpallicer.com/en/projectes/udden
+
+- **ONA** (2022) — Toy design. A cardboard toy allowing unlimited three-dimensional shape creation through simple connections, fostering creativity and imagination. Collaboration with Laia Poy.
+  URL: https://llucpallicer.com/en/projectes/ona
+
+- **Museu de la Rajola Hidràulica** (2022) — Documentation & fabrication. Long-term project to create a hydraulic tile museum (tiles recovered from rubble). Lluc reproduces historic moulds using 3D design software and 3D printing.
+  URL: https://llucpallicer.com/en/projectes/museu
+
+- **Copeo Traïdor** (2024) — Art direction. Art direction for the music video Copeo Traïdor by Marala with Queralt Lahoz. Set dressing and furniture selection (Hollywood chair by Rafael Carreras, Torres Clavé armchair, TMC lighting by Miguel Milà). Directed by Jan Marsol.
+  URL: https://llucpallicer.com/en/projectes/videoclip
+
+- **Utopia** (2025) — Speculative design. Futuristic speculative project by ten students (SIMON / EINA) imagining a home from construction to smart-home technology, addressing the housing crisis, decentralisation, and remote work in Catalunya.
+  URL: https://llucpallicer.com/en/projectes/utopia
+
+## Diary / Research
+
+Lluc also publishes original research. Current article: "The Apartments That GATCPAC Never Built in Mallorca" — recovery of a 1930 GATCPAC apartment project in Cala Sant Vicenç, Pollença, Mallorca, through a 1960s interview and research at the AHCOAC Historical Archive.
+URL: https://llucpallicer.com/en/diari
+
+## Site structure
+
+- Home / Portfolio: https://llucpallicer.com/en
+- Projects archive: https://llucpallicer.com/en/projectes
+- Diary / Research: https://llucpallicer.com/en/diari
+- Contact / About: https://llucpallicer.com/en/contacte
+- Sitemap: https://llucpallicer.com/sitemap.xml

@@ -3,9 +3,16 @@ import { archiveProjectTitle, projects } from '@/data/projects';
 import { projectPagePath } from '@/utils/projectLinks';
 import { useLocale } from '@/hooks/useLocale';
 import { usePageTitle } from '@/hooks/usePageTitle';
+import { useMeta } from '@/hooks/useMeta';
 import { useIsMobile } from '@/hooks/useMediaQuery';
 import { archiveTableHeaders, pageTitles } from '@/i18n/messages';
 import styles from './ProjectsPage.module.css';
+
+const ARCHIVE_DESCRIPTIONS: Record<string, string> = {
+  ca: 'Arxiu de tots els projectes de Lluc Pallicer: disseny de producte, instal·lacions, direcció d\'art i més.',
+  es: 'Archivo de todos los proyectos de Lluc Pallicer: diseño de producto, instalaciones, dirección de arte y más.',
+  en: 'Archive of all projects by Lluc Pallicer: product design, installations, art direction, and more.',
+};
 
 export function ProjectsPage() {
   const locale = useLocale();
@@ -14,6 +21,12 @@ export function ProjectsPage() {
   const headers = archiveTableHeaders[locale];
 
   usePageTitle(titles.archive);
+  useMeta({
+    locale,
+    path: `/${locale}/projectes`,
+    alternatePaths: { ca: '/ca/projectes', es: '/es/projectes', en: '/en/projectes' },
+    description: ARCHIVE_DESCRIPTIONS[locale],
+  });
 
   if (isMobile) {
     return (
