@@ -1,6 +1,6 @@
 import type { Locale, Project, ProjectSlug } from './types';
 
-/** Sidebar + archive table order (matches Figma). */
+/** Sidebar + archive table order. */
 export const projects: Project[] = [
   {
     slug: 'cinquanta-u',
@@ -12,30 +12,12 @@ export const projects: Project[] = [
     },
   },
   {
-    slug: 'bathndustry',
-    year: 2024,
-    copy: {
-      ca: { title: "Bath'n'dustry", client: 'TOI TOI', year: 2024, discipline: 'Instal·lació' },
-      es: { title: "Bath'n'dustry", client: 'TOI TOI', year: 2024, discipline: 'Instalación' },
-      en: { title: "Bath'n'dustry", client: 'TOI TOI', year: 2024, discipline: 'Installation' },
-    },
-  },
-  {
     slug: 'udden',
     year: 2024,
     copy: {
       ca: { title: 'Udden', client: 'Lightecture / Lights in Alingsås', year: 2024, discipline: 'Instal·lació lumínica' },
       es: { title: 'Udden', client: 'Lightecture / Lights in Alingsås', year: 2024, discipline: 'Instalación lumínica' },
       en: { title: 'Udden', client: 'Lightecture / Lights in Alingsås', year: 2024, discipline: 'Light installation' },
-    },
-  },
-  {
-    slug: 'ona',
-    year: 2022,
-    copy: {
-      ca: { title: 'ONA', year: 2022, discipline: 'Disseny de joguina' },
-      es: { title: 'ONA', year: 2022, discipline: 'Diseño de juguete' },
-      en: { title: 'ONA', year: 2022, discipline: 'Toy design' },
     },
   },
   {
@@ -66,6 +48,15 @@ export const projects: Project[] = [
     },
   },
   {
+    slug: 'ona',
+    year: 2022,
+    copy: {
+      ca: { title: 'ONA', year: 2022, discipline: 'Disseny de joguina' },
+      es: { title: 'ONA', year: 2022, discipline: 'Diseño de juguete' },
+      en: { title: 'ONA', year: 2022, discipline: 'Toy design' },
+    },
+  },
+  {
     slug: 'videoclip',
     year: 2024,
     copy: {
@@ -83,14 +74,23 @@ export const projects: Project[] = [
       en: { title: 'Utopia', client: 'SIMON / EINA', year: 2025, discipline: 'Speculative design' },
     },
   },
+  {
+    slug: 'bathndustry',
+    year: 2024,
+    copy: {
+      ca: { title: "Bath'n'dustry", client: 'TOI TOI', year: 2024, discipline: 'Instal·lació' },
+      es: { title: "Bath'n'dustry", client: 'TOI TOI', year: 2024, discipline: 'Instalación' },
+      en: { title: "Bath'n'dustry", client: 'TOI TOI', year: 2024, discipline: 'Installation' },
+    },
+  },
 ];
 
-/** Home page card order (matches Figma Home/Cat + phone/home/*.png). */
+/** Home page card order. */
 export const homeProjectSlugs: ProjectSlug[] = [
   'cinquanta-u',
   'udden',
-  'ona',
   'museu',
+  'ona',
   'videoclip',
   'utopia',
   'bathndustry',

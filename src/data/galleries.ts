@@ -275,7 +275,7 @@ export const detailImageCounts: Record<ProjectSlug, number> = {
   "ona": 10,
   "museu": 7,
   "videoclip": 10,
-  "utopia": 0
+  "utopia": 14
 } as Record<ProjectSlug, number>;
 
 export const phoneProjectImageCounts: Record<ProjectSlug, number> = {
