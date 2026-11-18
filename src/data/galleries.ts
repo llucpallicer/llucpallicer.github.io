@@ -1,4 +1,6 @@
 import type { ProjectSlug } from './types';
+import rawProjects from './projects.json';
+import type { ProjectEntry } from './projects';
 
 export interface GalleryNav {
   slides: number[];
@@ -8,249 +10,28 @@ export interface GalleryNav {
   next: Record<number, number | null>;
 }
 
-export const galleries: Record<ProjectSlug, GalleryNav> = {
-  "cinquanta-u": {
-    "slides": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6
-    ],
-    "first": 1,
-    "exitToHome": false,
-    "prev": {
-      "1": null,
-      "2": 1,
-      "3": 2,
-      "4": 3,
-      "5": 4,
-      "6": 5
-    },
-    "next": {
-      "1": 2,
-      "2": 3,
-      "3": 4,
-      "4": 5,
-      "5": 6,
-      "6": null
-    }
-  },
-  "bathndustry": {
-    "slides": [
-      1,
-      2,
-      4,
-      5,
-      6
-    ],
-    "first": 1,
-    "exitToHome": false,
-    "prev": {
-      "1": null,
-      "2": 1,
-      "4": 2,
-      "5": 4,
-      "6": 5
-    },
-    "next": {
-      "1": 2,
-      "2": 4,
-      "4": 5,
-      "5": 6,
-      "6": null
-    }
-  },
-  "udden": {
-    "slides": [
-      1,
-      2,
-      3,
-      4,
-      5
-    ],
-    "first": 1,
-    "exitToHome": false,
-    "prev": {
-      "1": null,
-      "2": 1,
-      "3": 2,
-      "4": 3,
-      "5": 4
-    },
-    "next": {
-      "1": 2,
-      "2": 3,
-      "3": 4,
-      "4": 5,
-      "5": null
-    }
-  },
-  "ona": {
-    "slides": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
-    ],
-    "first": 1,
-    "exitToHome": false,
-    "prev": {
-      "1": null,
-      "2": 1,
-      "3": 2,
-      "4": 3,
-      "5": 4,
-      "6": 5,
-      "7": 6,
-      "8": 7,
-      "9": 8,
-      "10": 9
-    },
-    "next": {
-      "1": 2,
-      "2": 3,
-      "3": 4,
-      "4": 5,
-      "5": 6,
-      "6": 7,
-      "7": 8,
-      "8": 9,
-      "9": 10,
-      "10": null
-    }
-  },
-  "museu": {
-    "slides": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7
-    ],
-    "first": 1,
-    "exitToHome": false,
-    "prev": {
-      "1": null,
-      "2": 1,
-      "3": 2,
-      "4": 3,
-      "5": 4,
-      "6": 5,
-      "7": 6
-    },
-    "next": {
-      "1": 2,
-      "2": 3,
-      "3": 4,
-      "4": 5,
-      "5": 6,
-      "6": 7,
-      "7": null
-    }
-  },
-  "videoclip": {
-    "slides": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
-    ],
-    "first": 1,
-    "exitToHome": false,
-    "prev": {
-      "1": null,
-      "2": 1,
-      "3": 2,
-      "4": 3,
-      "5": 4,
-      "6": 5,
-      "7": 6,
-      "8": 7,
-      "9": 8,
-      "10": 9
-    },
-    "next": {
-      "1": 2,
-      "2": 3,
-      "3": 4,
-      "4": 5,
-      "5": 6,
-      "6": 7,
-      "7": 8,
-      "8": 9,
-      "9": 10,
-      "10": null
-    }
-  },
-  "utopia": {
-    "slides": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13,
-      14
-    ],
-    "first": 1,
-    "exitToHome": true,
-    "prev": {
-      "1": null,
-      "2": 1,
-      "3": 2,
-      "4": 3,
-      "5": 4,
-      "6": 5,
-      "7": 6,
-      "8": 7,
-      "9": 8,
-      "10": 9,
-      "11": 10,
-      "12": 11,
-      "13": 12,
-      "14": 13
-    },
-    "next": {
-      "1": 2,
-      "2": 3,
-      "3": 4,
-      "4": 5,
-      "5": 6,
-      "6": 7,
-      "7": 8,
-      "8": 9,
-      "9": 10,
-      "10": 11,
-      "11": 12,
-      "12": 13,
-      "13": 14,
-      "14": null
-    }
+export function buildGalleryNav(slides: number[] = [], exitToHome = false): GalleryNav {
+  const prev: Record<number, number | null> = {};
+  const next: Record<number, number | null> = {};
+  for (let i = 0; i < slides.length; i++) {
+    const curr = slides[i];
+    prev[curr] = i > 0 ? slides[i - 1] : null;
+    next[curr] = i < slides.length - 1 ? slides[i + 1] : null;
   }
-} as Record<ProjectSlug, GalleryNav>;
+  return {
+    slides,
+    first: slides.length > 0 ? slides[0] : null,
+    exitToHome,
+    prev,
+    next,
+  };
+}
+
+const projectsList = rawProjects as ProjectEntry[];
+
+export const galleries: Record<ProjectSlug, GalleryNav> = Object.fromEntries(
+  projectsList.map((p) => [p.slug, buildGalleryNav(p.slides || [], p.exitToHome || false)])
+);
 
 export function getGallery(slug: ProjectSlug): GalleryNav | undefined {
   return galleries[slug];
@@ -268,25 +49,13 @@ export function projectDetailImageUrl(slug: ProjectSlug, index: number): string 
   return `/images/projects/${slug}/detail/image-${index}.png`;
 }
 
-export const detailImageCounts: Record<ProjectSlug, number> = {
-  "cinquanta-u": 6,
-  "bathndustry": 5,
-  "udden": 5,
-  "ona": 10,
-  "museu": 7,
-  "videoclip": 10,
-  "utopia": 14
-} as Record<ProjectSlug, number>;
+export const detailImageCounts: Record<ProjectSlug, number> = Object.fromEntries(
+  projectsList.map((p) => [p.slug, p.detailImageCount ?? (p.slides?.length || 0)])
+);
 
-export const phoneProjectImageCounts: Record<ProjectSlug, number> = {
-  "cinquanta-u": 6,
-  "bathndustry": 5,
-  "udden": 5,
-  "ona": 11,
-  "museu": 7,
-  "videoclip": 11,
-  "utopia": 12
-} as Record<ProjectSlug, number>;
+export const phoneProjectImageCounts: Record<ProjectSlug, number> = Object.fromEntries(
+  projectsList.map((p) => [p.slug, p.phoneProjectImageCount ?? p.detailImageCount ?? (p.slides?.length || 0)])
+);
 
 export function phoneHomeImageUrl(index: number): string {
   return `/images/phone/home/${index}.png`;

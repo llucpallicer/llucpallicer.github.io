@@ -50,78 +50,7 @@ const siteCopy = {
   },
 };
 
-const projects = [
-  {
-    slug: 'cinquanta-u',
-    year: 2025,
-    image: '/images/projects/cinquanta-u/thumb.png',
-    copy: {
-      ca: { title: 'Cinquanta-u', discipline: 'Disseny de producte', description: 'Recerca i materialització d’un esbós de cadira mai produït de l’arquitecte Germán Rodríguez Arias.' },
-      es: { title: 'Cinquanta-u', discipline: 'Diseño de producto', description: 'Investigación y materialización de un boceto de silla nunca producido del arquitecto Germán Rodríguez Arias.' },
-      en: { title: 'Cinquanta-u', discipline: 'Product design', description: 'Research and materialisation of an unproduced chair sketch by architect Germán Rodríguez Arias.' },
-    },
-  },
-  {
-    slug: 'bathndustry',
-    year: 2024,
-    image: '/images/projects/bathndustry/thumb.png',
-    copy: {
-      ca: { title: "Bath'n'dustry", discipline: 'Instal·lació', description: 'Intervenció per al festival NYS desenvolupada amb TOI TOI, transformant un bany portàtil en una instal·lació funcional.' },
-      es: { title: "Bath'n'dustry", discipline: 'Instalación', description: 'Intervención para el festival NYS desarrollada con TOI TOI, transformando un baño portátil en una instalación funcional.' },
-      en: { title: "Bath'n'dustry", discipline: 'Installation', description: 'An intervention for the NYS festival with TOI TOI, transforming a portable toilet into a functional installation.' },
-    },
-  },
-  {
-    slug: 'udden',
-    year: 2024,
-    image: '/images/projects/udden/thumb.png',
-    copy: {
-      ca: { title: 'Udden', discipline: 'Instal·lació lumínica', description: 'Instal·lació per al festival Lights in Alingsås, inspirada en el mite de l’inframón.' },
-      es: { title: 'Udden', discipline: 'Instalación lumínica', description: 'Instalación para el festival Lights in Alingsås, inspirada en el mito del inframundo.' },
-      en: { title: 'Udden', discipline: 'Light installation', description: 'An installation for the Lights in Alingsås festival, inspired by the myth of the underworld.' },
-    },
-  },
-  {
-    slug: 'ona',
-    year: 2022,
-    image: '/images/projects/ona/thumb.png',
-    copy: {
-      ca: { title: 'ONA', discipline: 'Disseny de joguina', description: 'Joguina de cartró per crear formes tridimensionals de manera ràpida i il·limitada.' },
-      es: { title: 'ONA', discipline: 'Diseño de juguete', description: 'Juguete de cartón para crear formas tridimensionales de manera rápida e ilimitada.' },
-      en: { title: 'ONA', discipline: 'Toy design', description: 'A cardboard toy for creating three-dimensional shapes quickly and without limits.' },
-    },
-  },
-  {
-    slug: 'museu',
-    year: 2022,
-    image: '/images/projects/museu/thumb.png',
-    copy: {
-      ca: { title: 'Museu de la Rajola Hidràulica', discipline: 'Documentació i fabricació', description: 'Projecte de recuperació de rajoles hidràuliques i reproducció de motlles amb disseny i impressió 3D.' },
-      es: { title: 'Museo de la Teja Hidráulica', discipline: 'Documentación y fabricación', description: 'Proyecto de recuperación de baldosas hidráulicas y reproducción de moldes con diseño e impresión 3D.' },
-      en: { title: 'Hydraulic Tile Museum', discipline: 'Documentation & fabrication', description: 'A project recovering hydraulic tiles and reproducing historic moulds through 3D design and printing.' },
-    },
-  },
-  {
-    slug: 'videoclip',
-    year: 2024,
-    image: '/images/projects/videoclip/thumb.png',
-    copy: {
-      ca: { title: 'Copeo Traïdor', discipline: 'Direcció d’art', description: 'Direcció d’art per al videoclip Copeo Traïdor de Marala amb Queralt Lahoz.' },
-      es: { title: 'Copeo Traidor', discipline: 'Dirección de arte', description: 'Dirección de arte para el videoclip Copeo Traïdor de Marala con Queralt Lahoz.' },
-      en: { title: 'Copeo Traïdor', discipline: 'Art direction', description: 'Art direction for the music video Copeo Traïdor by Marala with Queralt Lahoz.' },
-    },
-  },
-  {
-    slug: 'utopia',
-    year: 2025,
-    image: '/images/projects/utopia/thumb.png',
-    copy: {
-      ca: { title: 'Utopia', discipline: 'Disseny especulatiu', description: 'Projecte especulatiu sobre el futur de l’habitatge a Catalunya, desenvolupat per deu estudiants.' },
-      es: { title: 'Utopia', discipline: 'Diseño especulativo', description: 'Proyecto especulativo sobre el futuro de la vivienda en Cataluña, desarrollado por diez estudiantes.' },
-      en: { title: 'Utopia', discipline: 'Speculative design', description: 'A speculative project on the future of housing in Catalonia, developed by ten students.' },
-    },
-  },
-];
+const projects = JSON.parse(readFileSync(resolve(__dirname, '../src/data/projects.json'), 'utf-8'));
 
 function escapeHtml(value) {
   return String(value)

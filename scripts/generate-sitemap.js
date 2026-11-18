@@ -1,7 +1,7 @@
 /**
  * Generates /dist/sitemap.xml and /public/sitemap.xml at build time.
  */
-import { writeFileSync, existsSync, mkdirSync } from 'node:fs';
+import { writeFileSync, readFileSync, existsSync, mkdirSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -12,15 +12,8 @@ const SITE = 'https://llucpallicer.com';
 const LOCALES = ['ca', 'es', 'en'];
 const TODAY = new Date().toISOString().slice(0, 10);
 
-const projectSlugs = [
-  'cinquanta-u',
-  'bathndustry',
-  'udden',
-  'ona',
-  'museu',
-  'videoclip',
-  'utopia',
-];
+const projects = JSON.parse(readFileSync(resolve(__dirname, '../src/data/projects.json'), 'utf-8'));
+const projectSlugs = projects.map((p) => p.slug);
 
 function url(loc, priority, changefreq) {
   return `  <url>\n    <loc>${SITE}${loc}</loc>\n    <lastmod>${TODAY}</lastmod>\n    <changefreq>${changefreq}</changefreq>\n    <priority>${priority}</priority>\n  </url>`;

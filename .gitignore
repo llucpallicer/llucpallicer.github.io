@@ -2,3 +2,12 @@ node_modules/
 dist/
 *.tsbuildinfo
 .DS_Store
+
+# Content-wizard temp/staging files (do not commit)
+new-project.json
+new-diary.json
+new-project.last-added.json
+test-*.json
+
+# UUID-named originals (favicon was copied to public/favicon.jpg)
+4AACDC19-39F7-48FC-9C92-A5F6AD7DDA4F_1_201_a.jpeg

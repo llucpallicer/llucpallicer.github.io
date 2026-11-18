@@ -1,0 +1,35 @@
+{
+  "order": 0,
+  "slug": "cadira-mediterrania",
+  "year": 2026,
+  "showOnHome": true,
+  "client": "Arxiu DHUB",
+  "discipline": "Disseny de producte",
+  "copy": {
+    "ca": {
+      "title": "Cadira Mediterrània",
+      "sidebarTitle": "Cadira Mediterrània",
+      "client": "Arxiu DHUB",
+      "discipline": "Disseny de producte",
+      "description": "Descripció breu per a Google i xarxes socials en català.",
+      "body": "Text explicatiu complet del projecte que es mostrarà a la pàgina de detall en català."
+    },
+    "es": {
+      "title": "Silla Mediterránea",
+      "sidebarTitle": "Silla Mediterránea",
+      "client": "Archivo DHUB",
+      "discipline": "Diseño de producto",
+      "description": "Descripción breve para Google y redes sociales en castellano.",
+      "body": "Texto explicativo completo del proyecto que se mostrará en la página de detalle en castellano."
+    },
+    "en": {
+      "title": "Mediterranean Chair",
+      "sidebarTitle": "Mediterranean Chair",
+      "client": "DHUB Archive",
+      "discipline": "Product design",
+      "description": "Short description for Google and social previews in English.",
+      "body": "Full explanatory text of the project displayed on the detail page in English."
+    }
+  },
+  "slidesCount": 6
+}

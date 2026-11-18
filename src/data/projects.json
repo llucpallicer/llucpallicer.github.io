@@ -1,0 +1,315 @@
+[
+  {
+    "slug": "cinquanta-u",
+    "year": 2025,
+    "showOnHome": true,
+    "image": "/images/projects/cinquanta-u/thumb.png",
+    "copy": {
+      "ca": {
+        "title": "Cinquanta-u",
+        "year": 2025,
+        "discipline": "Disseny de producte",
+        "description": "Recerca i materialització d’un esbós de cadira mai produït de l’arquitecte Germán Rodríguez Arias.",
+        "body": "Després de mesos d’investigació sobre l’arquitecte català Germán Rodríguez Arias i la seva vinculació amb l’illa d’Eivissa, vaig trobar al seu arxiu personal, conservat a l’AHCOAC, l’esbós d’una cadira que mai no va arribar a produir-se. Aquest disseny correspon al període en què l’arquitecte es va haver d’exiliar a Xile. El projecte es compon de la recerca i la materialització de la cadira."
+      },
+      "es": {
+        "title": "Cinquanta-u",
+        "year": 2025,
+        "discipline": "Diseño de producto",
+        "description": "Investigación y materialización de un boceto de silla nunca producido del arquitecto Germán Rodríguez Arias.",
+        "body": "Después de meses de investigación sobre el arquitecto catalán Germán Rodríguez Arias y su vinculación con la isla de Ibiza, encontré en su archivo personal, conservado en el AHCOAC, el esbozo de una silla que nunca llegó a producirse. Este diseño corresponde al período en que el arquitecto tuvo que exiliarse en Chile. El proyecto se compone de la investigación y la materialización de la silla."
+      },
+      "en": {
+        "title": "Cinquanta-u",
+        "year": 2025,
+        "discipline": "Product design",
+        "description": "Research and materialisation of an unproduced chair sketch by architect Germán Rodríguez Arias.",
+        "body": "After months of research on the Catalan architect Germán Rodríguez Arias and his connection with the island of Ibiza, I found in his personal archive, preserved at the AHCOAC, the sketch of a chair that was never produced. This design corresponds to the period when the architect had to go into exile in Chile. The project consists of the research and the materialization of the chair."
+      }
+    },
+    "slides": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exitToHome": false,
+    "detailImageCount": 6,
+    "phoneProjectImageCount": 6
+  },
+  {
+    "slug": "udden",
+    "year": 2024,
+    "showOnHome": true,
+    "image": "/images/projects/udden/thumb.png",
+    "copy": {
+      "ca": {
+        "title": "Udden",
+        "client": "Lightecture / Lights in Alingsås",
+        "year": 2024,
+        "discipline": "Instal·lació lumínica",
+        "description": "Instal·lació per al festival Lights in Alingsås, inspirada en el mite de l’inframón.",
+        "body": "Becat per la revista Lightecture per participar en el festival “Lights in Alingsås” (Suècia). Instal·lació inspirada en el mite de l’inframón amb Caront, Cèrber i Hades. Dirigit per l’arquitecte George Fatseas. La proposta explora la percepció de la llum i l’espai com a elements narratius del viatge cap a l’inframón. Fotografies realitzades per Patrik Gunnar"
+      },
+      "es": {
+        "title": "Udden",
+        "client": "Lightecture / Lights in Alingsås",
+        "year": 2024,
+        "discipline": "Instalación lumínica",
+        "description": "Instalación para el festival Lights in Alingsås, inspirada en el mito del inframundo.",
+        "body": "Becado por la revista Lightecture para participar en el festival “Lights in Alingsås” (Suecia). Instalación inspirada en el mito del inframundo con Caronte, Cerbero y Hades. Dirigido por el arquitecto George Fatseas. La propuesta explora la percepción de la luz y el espacio como elementos narrativos del viaje hacia el inframundo. Fotografías realizadas por Patrik Gunnar"
+      },
+      "en": {
+        "title": "Udden",
+        "client": "Lightecture / Lights in Alingsås",
+        "year": 2024,
+        "discipline": "Light installation",
+        "description": "An installation for the Lights in Alingsås festival, inspired by the myth of the underworld.",
+        "body": "Awarded a scholarship by Lightecture magazine to participate in the “Lights in Alingsås” festival (Sweden). Installation inspired by the myth of the underworld featuring Charon, Cerberus, and Hades. Directed by architect George Fatseas. The project explores the perception of light and space as narrative elements of the journey to the underworld. Photos by Patrik Gunnar"
+      }
+    },
+    "slides": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exitToHome": false,
+    "detailImageCount": 5,
+    "phoneProjectImageCount": 5
+  },
+  {
+    "slug": "museu",
+    "year": 2022,
+    "showOnHome": true,
+    "image": "/images/projects/museu/thumb.png",
+    "copy": {
+      "ca": {
+        "title": "Museu de la Rajola Hidràulica",
+        "sidebarTitle": "Museu Rajola Hidràulica",
+        "client": "Museu de la Rajola Hidràulica",
+        "year": 2022,
+        "discipline": "Documentació i fabricació",
+        "description": "Projecte de recuperació de rajoles hidràuliques i reproducció de motlles amb disseny i impressió 3D.",
+        "body": "Formo part d’un projecte a llarg termini que té l’objectiu de crear un museu de rajoles hidràuliques, principalment recuperades de la runa. La meva tasca principal és reproduir les trepes (motlles) mitjançant programari de disseny 3D i impressió tridimensional. Aquests motlles permeten a l’artesana fabricar novament mosaics hidràulics."
+      },
+      "es": {
+        "title": "Museo de la Teja Hidráulica",
+        "sidebarTitle": "Museo Rajola Hidràulica",
+        "client": "Museu de la Rajola Hidràulica",
+        "year": 2022,
+        "discipline": "Documentación y fabricación",
+        "description": "Proyecto de recuperación de baldosas hidráulicas y reproducción de moldes con diseño e impresión 3D.",
+        "body": "Formo parte de un proyecto a largo plazo que tiene como objetivo crear un museo de baldosas hidráulicas, principalmente recuperadas de los escombros. Mi tarea principal es reproducir las trepas (moldes) mediante software de diseño 3D e impresión tridimensional. Estos moldes permiten a la artesana fabricar nuevamente mosaicos hidráulicos."
+      },
+      "en": {
+        "title": "Hydraulic Tile Museum",
+        "sidebarTitle": "Hydraulic Tile Museum",
+        "client": "Museu de la Rajola Hidràulica",
+        "year": 2022,
+        "discipline": "Documentation & fabrication",
+        "description": "A project recovering hydraulic tiles and reproducing historic moulds through 3D design and printing.",
+        "body": "I am part of a long-term project aimed at creating a museum of hydraulic tiles, mainly recovered from rubble. My main task is to reproduce the molds using 3D design software and 3D printing. These molds allow the craftswoman to produce hydraulic mosaics again."
+      }
+    },
+    "slides": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "exitToHome": false,
+    "detailImageCount": 7,
+    "phoneProjectImageCount": 7
+  },
+  {
+    "slug": "ona",
+    "year": 2022,
+    "showOnHome": true,
+    "image": "/images/projects/ona/thumb.png",
+    "copy": {
+      "ca": {
+        "title": "ONA",
+        "year": 2022,
+        "discipline": "Disseny de joguina",
+        "description": "Joguina de cartró per crear formes tridimensionals de manera ràpida i il·limitada.",
+        "body": "«Ona» és una joguina fabricada amb cartró que permet crear formes tridimensionals de manera ràpida i il·limitada gràcies a les seves unions senzilles. El sistema ofereix als nens llibertat per dissenyar i construir les seves pròpies creacions, alhora que facilita el muntatge i fomenta la creativitat i la imaginació. Aquest projecte es va realitzar en col·laboració amb Laia Poy. Fotografies realitzades per Nil de Paz"
+      },
+      "es": {
+        "title": "ONA",
+        "year": 2022,
+        "discipline": "Diseño de juguete",
+        "description": "Juguete de cartón para crear formas tridimensionales de manera rápida e ilimitada.",
+        "body": "«Ona» es un juguete fabricado con cartón que permite crear formas tridimensionales de manera rápida e ilimitada gracias a sus uniones sencillas. El sistema ofrece a los niños libertad para diseñar y construir sus propias creaciones, al mismo tiempo que facilita el montaje y fomenta la creatividad y la imaginación. Este proyecto se realizó en colaboración con Laia Poy. Fotografías realizadas por Nil de Paz"
+      },
+      "en": {
+        "title": "ONA",
+        "year": 2022,
+        "discipline": "Toy design",
+        "description": "A cardboard toy for creating three-dimensional shapes quickly and without limits.",
+        "body": "\"Ona\" is a cardboard toy that allows the creation of three-dimensional shapes quickly and without limits, thanks to its simple connections. The system gives children the freedom to design and build their own creations, while also making assembly easy and encouraging creativity and imagination. This project was carried out in collaboration with Laia Poy. Photos by Nil de Paz"
+      }
+    },
+    "slides": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "exitToHome": false,
+    "detailImageCount": 10,
+    "phoneProjectImageCount": 11
+  },
+  {
+    "slug": "videoclip",
+    "year": 2024,
+    "showOnHome": true,
+    "image": "/images/projects/videoclip/thumb.png",
+    "copy": {
+      "ca": {
+        "title": "Copeo Traïdor",
+        "client": "Queralt Lahoz",
+        "year": 2024,
+        "discipline": "Direcció d'art",
+        "description": "Direcció d’art per al videoclip Copeo Traïdor de Marala amb Queralt Lahoz.",
+        "body": "Direcció d’art per al videoclip Copeo Traïdor de Marala amb Queralt Lahoz, desenvolupant part de l’attrezzo així com la selecció del mobiliari utilitzat. Entre les peces seleccionades hi ha peces com la cadira Hollywood de Rafael Carreras, la butaca Torres Clavé de l’edició cordada amb boga i la lluminària TMC de Miguel Milà. Dirigit per Jan Marsol"
+      },
+      "es": {
+        "title": "Copeo Traidor",
+        "client": "Queralt Lahoz",
+        "year": 2024,
+        "discipline": "Dirección de arte",
+        "description": "Dirección de arte para el videoclip Copeo Traidor de Marala con Queralt Lahoz.",
+        "body": "Dirección de arte para el videoclip Copeo Traïdor de Marala con Queralt Lahoz, desarrollando parte del atrezzo así como la selección del mobiliario utilizado. Entre las piezas seleccionadas se encuentran la silla Hollywood de Rafael Carreras, el sillón Torres Clavé de la edición cordada con boga y la luminaria TMC de Miguel Milà. Dirigido por Jan Marsol"
+      },
+      "en": {
+        "title": "Copeo Traïdor",
+        "client": "Queralt Lahoz",
+        "year": 2024,
+        "discipline": "Art direction",
+        "description": "Art direction for the music video Copeo Traïdor by Marala with Queralt Lahoz.",
+        "body": "Art direction for the music video Copeo Traïdor by Marala with Queralt Lahoz, overseeing part of the set dressing as well as the selection of the furniture used. Featured pieces include the Hollywood chair by Rafael Carreras, the Torres Clavé armchair from the corded boga edition, and the TMC lighting fixture by Miguel Milà. Directed by Jan Marsol"
+      }
+    },
+    "slides": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "exitToHome": false,
+    "detailImageCount": 10,
+    "phoneProjectImageCount": 11
+  },
+  {
+    "slug": "utopia",
+    "year": 2025,
+    "showOnHome": true,
+    "image": "/images/projects/utopia/thumb.png",
+    "copy": {
+      "ca": {
+        "title": "Utopia",
+        "client": "SIMON / EINA",
+        "year": 2025,
+        "discipline": "Disseny especulatiu",
+        "description": "Projecte especulatiu sobre el futur de l’habitatge a Catalunya, desenvolupat per deu estudiants.",
+        "body": "Projecte especulatiu futurista desenvolupat per deu estudiants en el que imaginem un habitatge des de la seva construcció integral fins a la domòtica de la llar. Explorant l’evolució de l’habitatge a Catalunya i les seves perspectives futures aborda la crisi de l’habitatge, el lloguer de temporada, la descentralització i el teletreball, proposant solucions basades en sostenibilitat, domòtica i optimització de l’espai."
+      },
+      "es": {
+        "title": "Utopia",
+        "client": "SIMON / EINA",
+        "year": 2025,
+        "discipline": "Diseño especulativo",
+        "description": "Proyecto especulativo sobre el futuro de la vivienda en Cataluña, desarrollado por diez estudiantes.",
+        "body": "Proyecto especulativo futurista desarrollado por diez estudiantes que imagina una vivienda desde su construcción integral hasta la domótica. Explorando la evolución de la vivienda en Cataluña y sus perspectivas futuras, el proyecto aborda la crisis de la vivienda, el alquiler temporal, la descentralización y el teletrabajo, proponiendo soluciones basadas en sostenibilidad, tecnología y optimización del espacio."
+      },
+      "en": {
+        "title": "Utopia",
+        "client": "SIMON / EINA",
+        "year": 2025,
+        "discipline": "Speculative design",
+        "description": "A speculative project on the future of housing in Catalonia, developed by ten students.",
+        "body": "A futuristic speculative project developed by ten students, imagining a home from its integral construction to smart home technology. Exploring the evolution of housing in Catalonia and its future perspectives, the project addresses the housing crisis, short-term rentals, decentralization, and remote work, proposing solutions based on sustainability, technology, and space optimization."
+      }
+    },
+    "slides": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "exitToHome": true,
+    "detailImageCount": 14,
+    "phoneProjectImageCount": 12
+  },
+  {
+    "slug": "bathndustry",
+    "year": 2024,
+    "showOnHome": true,
+    "image": "/images/projects/bathndustry/thumb.png",
+    "copy": {
+      "ca": {
+        "title": "Bath'n'dustry",
+        "client": "TOI TOI",
+        "year": 2024,
+        "discipline": "Instal·lació",
+        "description": "Intervenció per al festival NYS desenvolupada amb TOI TOI, transformant un bany portàtil en una instal·lació funcional.",
+        "body": "Intervenció per al NYS, un festival on es fusionen indústria i art. El projecte, desenvolupat conjuntament amb l’empresa TOI TOI, ha volgut transformar aquest bany portàtil perquè esdevingui part de la instal·lació del festival, mantenint-ne la plena funcionalitat perquè els usuaris el puguessin utilitzar. Fotografies realitzades per Irene Monteagudo"
+      },
+      "es": {
+        "title": "Bath'n'dustry",
+        "client": "TOI TOI",
+        "year": 2024,
+        "discipline": "Instalación",
+        "description": "Intervención para el festival NYS desarrollada con TOI TOI, transformando un baño portátil en una instalación funcional.",
+        "body": "Intervención para el NYS, un festival donde se fusionan industria y arte. El proyecto, desarrollado conjuntamente con la empresa TOI TOI, ha buscado transformar este baño portátil para que forme parte de la instalación del festival, manteniendo su plena funcionalidad para que los usuarios pudieran utilizarlo. Fotografías realizadas por Irene Monteagudo"
+      },
+      "en": {
+        "title": "Bath'n'dustry",
+        "client": "TOI TOI",
+        "year": 2024,
+        "discipline": "Installation",
+        "description": "An intervention for the NYS festival with TOI TOI, transforming a portable toilet into a functional installation.",
+        "body": "Intervention for NYS, a festival where industry and art merge. The project, developed in collaboration with the company TOI TOI, aimed to transform this portable toilet so that it becomes part of the festival installation, while maintaining full functionality for users to be able to use it. Photos by Irene Monteagudo"
+      }
+    },
+    "slides": [
+      1,
+      2,
+      4,
+      5,
+      6
+    ],
+    "exitToHome": false,
+    "detailImageCount": 5,
+    "phoneProjectImageCount": 5
+  }
+]

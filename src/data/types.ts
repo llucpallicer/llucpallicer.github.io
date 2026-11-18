@@ -1,13 +1,6 @@
 export type Locale = 'ca' | 'es' | 'en';
 
-export type ProjectSlug =
-  | 'cinquanta-u'
-  | 'bathndustry'
-  | 'udden'
-  | 'ona'
-  | 'museu'
-  | 'videoclip'
-  | 'utopia';
+export type ProjectSlug = string;
 
 export interface ProjectCopy {
   title: string;

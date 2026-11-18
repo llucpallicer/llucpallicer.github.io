@@ -1,0 +1,23 @@
+{
+  "order": 0,
+  "slug": "01-00-00",
+  "copy": {
+    "ca": "01.00.00 / Títol breu de l'article per al menú lateral en català",
+    "es": "01.00.00 / Título breve del artículo para el menú lateral en castellano",
+    "en": "01.00.00 / Short article title for the sidebar menu in English"
+  },
+  "content": {
+    "ca": {
+      "headline": "01.00.00 / Titular de l'article en català",
+      "body": "Text complet de l'article del diari en català. Podeu afegir subtítols de figures utilitzant 'Fig 1 - Descripció' o bibliografia començant per 'Bibliografia:'."
+    },
+    "es": {
+      "headline": "01.00.00 / Titular del artículo en castellano",
+      "body": "Texto completo del artículo del diario en castellano. Puedes añadir pies de foto usando 'Fig 1 - Descripción' o bibliografía comenzando por 'Bibliografía:'."
+    },
+    "en": {
+      "headline": "01.00.00 / Article headline in English",
+      "body": "Full text of the diary article in English. You can include figure captions using 'Fig 1 - Description' or a bibliography starting with 'Bibliography:'."
+    }
+  }
+}
